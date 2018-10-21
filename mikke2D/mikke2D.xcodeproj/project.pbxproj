@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35F2BC8921772268004C9591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2BC8821772268004C9591 /* AppDelegate.swift */; };
+		35F2BC8B21772268004C9591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2BC8A21772268004C9591 /* ViewController.swift */; };
+		35F2BC8D2177226A004C9591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F2BC8C2177226A004C9591 /* Assets.xcassets */; };
+		35F2BC902177226A004C9591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F2BC8E2177226A004C9591 /* Main.storyboard */; };
+		35F2BC9C2177226A004C9591 /* mikke2DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2BC9B2177226A004C9591 /* mikke2DTests.swift */; };
+		35F2BCA72177226A004C9591 /* mikke2DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2BCA62177226A004C9591 /* mikke2DUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35F2BC982177226A004C9591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F2BC7D21772268004C9591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F2BC8421772268004C9591;
+			remoteInfo = mikke2D;
+		};
+		35F2BCA32177226A004C9591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F2BC7D21772268004C9591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F2BC8421772268004C9591;
+			remoteInfo = mikke2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35F2BC8521772268004C9591 /* mikke2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mikke2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F2BC8821772268004C9591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35F2BC8A21772268004C9591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35F2BC8C2177226A004C9591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35F2BC8F2177226A004C9591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35F2BC912177226A004C9591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F2BC922177226A004C9591 /* mikke2D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mikke2D.entitlements; sourceTree = "<group>"; };
+		35F2BC972177226A004C9591 /* mikke2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mikke2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F2BC9B2177226A004C9591 /* mikke2DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mikke2DTests.swift; sourceTree = "<group>"; };
+		35F2BC9D2177226A004C9591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F2BCA22177226A004C9591 /* mikke2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mikke2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F2BCA62177226A004C9591 /* mikke2DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mikke2DUITests.swift; sourceTree = "<group>"; };
+		35F2BCA82177226A004C9591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35F2BC8221772268004C9591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BC942177226A004C9591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BC9F2177226A004C9591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35F2BC7C21772268004C9591 = {
+			isa = PBXGroup;
+			children = (
+				35F2BC8721772268004C9591 /* mikke2D */,
+				35F2BC9A2177226A004C9591 /* mikke2DTests */,
+				35F2BCA52177226A004C9591 /* mikke2DUITests */,
+				35F2BC8621772268004C9591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35F2BC8621772268004C9591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35F2BC8521772268004C9591 /* mikke2D.app */,
+				35F2BC972177226A004C9591 /* mikke2DTests.xctest */,
+				35F2BCA22177226A004C9591 /* mikke2DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35F2BC8721772268004C9591 /* mikke2D */ = {
+			isa = PBXGroup;
+			children = (
+				35F2BC8821772268004C9591 /* AppDelegate.swift */,
+				35F2BC8A21772268004C9591 /* ViewController.swift */,
+				35F2BC8C2177226A004C9591 /* Assets.xcassets */,
+				35F2BC8E2177226A004C9591 /* Main.storyboard */,
+				35F2BC912177226A004C9591 /* Info.plist */,
+				35F2BC922177226A004C9591 /* mikke2D.entitlements */,
+			);
+			path = mikke2D;
+			sourceTree = "<group>";
+		};
+		35F2BC9A2177226A004C9591 /* mikke2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F2BC9B2177226A004C9591 /* mikke2DTests.swift */,
+				35F2BC9D2177226A004C9591 /* Info.plist */,
+			);
+			path = mikke2DTests;
+			sourceTree = "<group>";
+		};
+		35F2BCA52177226A004C9591 /* mikke2DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35F2BCA62177226A004C9591 /* mikke2DUITests.swift */,
+				35F2BCA82177226A004C9591 /* Info.plist */,
+			);
+			path = mikke2DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35F2BC8421772268004C9591 /* mikke2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F2BCAB2177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2D" */;
+			buildPhases = (
+				35F2BC8121772268004C9591 /* Sources */,
+				35F2BC8221772268004C9591 /* Frameworks */,
+				35F2BC8321772268004C9591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mikke2D;
+			productName = mikke2D;
+			productReference = 35F2BC8521772268004C9591 /* mikke2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35F2BC962177226A004C9591 /* mikke2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F2BCAE2177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2DTests" */;
+			buildPhases = (
+				35F2BC932177226A004C9591 /* Sources */,
+				35F2BC942177226A004C9591 /* Frameworks */,
+				35F2BC952177226A004C9591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F2BC992177226A004C9591 /* PBXTargetDependency */,
+			);
+			name = mikke2DTests;
+			productName = mikke2DTests;
+			productReference = 35F2BC972177226A004C9591 /* mikke2DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35F2BCA12177226A004C9591 /* mikke2DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F2BCB12177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2DUITests" */;
+			buildPhases = (
+				35F2BC9E2177226A004C9591 /* Sources */,
+				35F2BC9F2177226A004C9591 /* Frameworks */,
+				35F2BCA02177226A004C9591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35F2BCA42177226A004C9591 /* PBXTargetDependency */,
+			);
+			name = mikke2DUITests;
+			productName = mikke2DUITests;
+			productReference = 35F2BCA22177226A004C9591 /* mikke2DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35F2BC7D21772268004C9591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "山下　耀崇";
+				TargetAttributes = {
+					35F2BC8421772268004C9591 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					35F2BC962177226A004C9591 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 35F2BC8421772268004C9591;
+					};
+					35F2BCA12177226A004C9591 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 35F2BC8421772268004C9591;
+					};
+				};
+			};
+			buildConfigurationList = 35F2BC8021772268004C9591 /* Build configuration list for PBXProject "mikke2D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35F2BC7C21772268004C9591;
+			productRefGroup = 35F2BC8621772268004C9591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F2BC8421772268004C9591 /* mikke2D */,
+				35F2BC962177226A004C9591 /* mikke2DTests */,
+				35F2BCA12177226A004C9591 /* mikke2DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35F2BC8321772268004C9591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F2BC8D2177226A004C9591 /* Assets.xcassets in Resources */,
+				35F2BC902177226A004C9591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BC952177226A004C9591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BCA02177226A004C9591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F2BC8121772268004C9591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F2BC8B21772268004C9591 /* ViewController.swift in Sources */,
+				35F2BC8921772268004C9591 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BC932177226A004C9591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F2BC9C2177226A004C9591 /* mikke2DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F2BC9E2177226A004C9591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F2BCA72177226A004C9591 /* mikke2DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35F2BC992177226A004C9591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35F2BC8421772268004C9591 /* mikke2D */;
+			targetProxy = 35F2BC982177226A004C9591 /* PBXContainerItemProxy */;
+		};
+		35F2BCA42177226A004C9591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35F2BC8421772268004C9591 /* mikke2D */;
+			targetProxy = 35F2BCA32177226A004C9591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35F2BC8E2177226A004C9591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35F2BC8F2177226A004C9591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35F2BCA92177226A004C9591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35F2BCAA2177226A004C9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		35F2BCAC2177226A004C9591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mikke2D/mikke2D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		35F2BCAD2177226A004C9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mikke2D/mikke2D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		35F2BCAF2177226A004C9591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mikke2D.app/Contents/MacOS/mikke2D";
+			};
+			name = Debug;
+		};
+		35F2BCB02177226A004C9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mikke2D.app/Contents/MacOS/mikke2D";
+			};
+			name = Release;
+		};
+		35F2BCB22177226A004C9591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = mikke2D;
+			};
+			name = Debug;
+		};
+		35F2BCB32177226A004C9591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z5T368ZRDF;
+				INFOPLIST_FILE = mikke2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie-ryukyu.mikke2DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = mikke2D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F2BC8021772268004C9591 /* Build configuration list for PBXProject "mikke2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F2BCA92177226A004C9591 /* Debug */,
+				35F2BCAA2177226A004C9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F2BCAB2177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F2BCAC2177226A004C9591 /* Debug */,
+				35F2BCAD2177226A004C9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F2BCAE2177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F2BCAF2177226A004C9591 /* Debug */,
+				35F2BCB02177226A004C9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F2BCB12177226A004C9591 /* Build configuration list for PBXNativeTarget "mikke2DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F2BCB22177226A004C9591 /* Debug */,
+				35F2BCB32177226A004C9591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35F2BC7D21772268004C9591 /* Project object */;
+}
